@@ -1,7 +1,7 @@
 #define F_CPU 128000UL // 128 KHz INT RC OSC
 #define MINUTE 60000 // минута в мс
 #define OFFTIME 5000 // длительность выключенного состо€ни€, мс
-#define ONTIME 1 // длительность включенного состо€ни€, минут
+#define ONTIME 240 // длительность включенного состо€ни€, минут
 
 #include <avr/io.h>
 #include <util/delay.h>
